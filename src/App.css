@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/qzy5rmh.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #FEFEF4;
+}
+
+span {
+  color: #7B9880;
+}
+
+header {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: flood-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #304836;
+  text-shadow: 1px 4px 1px #d8d2d2be;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+  text-shadow: none;
+}
+
+input {
+  border: 1px solid #cec8c8;
+  height: 5vh;
+  text-align: center;
+  padding-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+select {
+  border: 1px solid #cec8c8;
+  height: 5vh;
+  text-align: center;
+  padding-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+.body-container {
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.center-heading {
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 37px;
+  color: #616161;
+}
+
+.mid-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid-right-section {
+  width: 100%;
+  margin-left: 10%;
+}
+
+.center-heading.second{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #616161;
+}
+
+.bottom {
+  width: 80%;
+  margin: auto;
+}
+
+.footer {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
